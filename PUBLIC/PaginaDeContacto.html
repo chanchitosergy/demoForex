@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html class="bgContacto">
+<head>
+    <title>SobreMi</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel ="stylesheet" href="..\CSS\style.css">
+</head>
+<body>
+      <div class="head">
+        <nav class="barra_nav">
+          <a class="home" href="..\index.html"><span class="material-symbols-outlined">home</span></a>
+          <a href=".\Red.html">Red</a>
+          <a href=".\FII.html">FII</a>
+          <a href=".\Tema.html">Tema</a>
+          <a href=".\PaginaDeContacto.html">Contactanos</a>
+          <a href=".\SobreMi.html">Sobre Mi</a>
+        </nav>
+      </div>
+
+
+    <section class="formulario">
+      <form action="sergiofundamentos@email.com" method="POST" class="formcontacto" autocomplete="off">
+        <h2>Contactanos</h2>
+
+        <div class="divcontacto">
+          <input type="text" name="nombre" placeholder="Nombre">
+          <input type="text" name="apellido" placeholder="Apellido">
+          <input type="email" name="correo" placeholder="Correo">
+          <textarea name="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+          <input class="btn" type="submit" value="Enviar">
+          <input type="hidden" name="_next" value=".\PaginaDeContacto.html">
+          <input type="hidden" name="_captcha" value="false">
+        </div>
+
+      </form>
+    </section>
+
+  </body>
+</html>
